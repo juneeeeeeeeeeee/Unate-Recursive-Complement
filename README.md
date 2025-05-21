@@ -12,7 +12,7 @@ This C program supports:
 - Arbitrary number of Boolean variables (up to 20)
 - Sum-of-products input in `.pcn` format
 - Complement computation via recursive decomposition
-- Output result in `.pcn` format
+- Sum-of-products output result in `.pcn` format
 
 ## File Format (Input/Output)
 
@@ -35,3 +35,9 @@ Input file would look like:
 3 2 3 4
 2 -1 5
 3 1 -3 -4
+
+## How to Run
+1. Compile the program
+2. Prepare a `.pcn` input file.
+3. Run the program. When prompted, enter your input filename (e.g., example.pcn). **Input filename is limited to 64 bits.** 
+4. The program will create a file called `result.pcn` containing the complemented cubes.
