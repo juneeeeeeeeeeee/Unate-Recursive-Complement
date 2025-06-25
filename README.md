@@ -30,11 +30,13 @@ For the Boolean function:
 f(x1,x2,x3,x4,x5) = x2x3x4 + x1'x5 + x1x3'x4'
 
 Input file would look like:
+```
 5
 3
 3 2 3 4
 2 -1 5
 3 1 -3 -4
+```
 
 ## How to Run
 1. Compile the program
